@@ -19,21 +19,20 @@ const Home = () => {
             className="py-0 relative mx-auto"
             style={{ maxWidth: "1500px", width: "90%", color: "#fff" }}
           >
-            <div className="text-white relative flex w-full max-w-5xl mx-auto pb-6 lg:bg-themeblack bg-transparent rounded-sm flex-col md:-mt-56 mt-0 ">
+            <div className="text-white relative flex w-full max-w-5xl mx-auto pb-6 lg:bg-themeblack bg-transparent rounded-sm flex-col lg:-mt-56 mt-0 ">
               <div
                 className="relative flex pb-6 justify-center"
                 style={{ marginTop: "-60px" }}
               >
                 <div
-                  className="flex overflow-hidden items-end rounded-full"
+                  className="flex overflow-hidden items-end rounded-full lg:h-52 h-40"
                   style={{
-                    height: "200px",
                     boxShadow: "0 8px 40px 0 rgb(0 0 0 / 21%)",
                   }}
                 >
                   <img
                     src="https://cdn.solo.to/user/a/5f7d66f3481fc9_71708607.jpg"
-                    className="h-full"
+                    className="lg:h-full h-40"
                   />
                 </div>
               </div>
