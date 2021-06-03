@@ -9,7 +9,7 @@ const AppComp = ({
   bgCol,
 }) => {
   return (
-    <div className="flex mb-5 flex-col items-end" style={{ width: "49%" }}>
+    <div className="flex mb-5 flex-col items-end resp-div-profile">
       <a
         href={href}
         style={{

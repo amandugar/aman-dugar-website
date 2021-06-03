@@ -9,6 +9,7 @@ module.exports = {
       }),
       colors: {
         ashDark: "#242424",
+        themeblack: "#333",
       },
     },
   },

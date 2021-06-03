@@ -8,7 +8,7 @@ const Home = () => {
         <div className="flex overflow-hidden min-h-screen flex-col">
           <div className="bg-topherobackground relative overflow-hidden profile-bkg-hero bg-cover bg-no-repeat">
             <div
-              className="bg-ashDark left-0 bottom-auto top absolute right-0 h-full"
+              className="bg-ashDark left-0 bottom-auto top absolute right-0 h-full lg:block none"
               style={{
                 top: "345px",
                 transform: "skew(-7deg,0deg) rotate(-6.5deg)",
@@ -19,10 +19,7 @@ const Home = () => {
             className="py-0 relative mx-auto"
             style={{ maxWidth: "1500px", width: "90%", color: "#fff" }}
           >
-            <div
-              className="text-white relative flex w-full max-w-full mx-auto pb-6 rounded-sm flex-col"
-              style={{ backgroundColor: "#333", marginTop: "-225px" }}
-            >
+            <div className="text-white relative flex w-full max-w-full mx-auto pb-6 lg:bg-themeblack bg-transparent rounded-sm flex-col md:-mt-56 mt-0 ">
               <div
                 className="relative flex pb-6 justify-center"
                 style={{ marginTop: "-60px" }}
@@ -57,8 +54,8 @@ const Home = () => {
                   WA Artist Based in California
                 </p>
               </div>
-              <div className="flex w-full mb-5 px-6 items-center justify-center">
-                <div className="flex">
+              <div className="flex w-full mb-5 px-6 items-center justify-center md:flex-nowrap flex-wrap">
+                <div className="flex md:mb-0 mb-2">
                   <SocialIcons
                     image={
                       "https://cdn.solo.to/images/social/applemusic-min.svg"
@@ -76,7 +73,7 @@ const Home = () => {
                     link={"https://instagram.com/asherthephotographer"}
                   />
                 </div>
-                <div className="flex">
+                <div className="flex md:mb-0 mb-2">
                   <SocialIcons
                     image={"https://cdn.solo.to/images/social/spotify-min.svg"}
                     link={

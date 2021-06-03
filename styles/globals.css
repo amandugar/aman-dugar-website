@@ -56,3 +56,13 @@ html, body, a, p, li, h1, h2, h3, h4, h5, h6 {
   height: 42px;
   animation: op 2s ease infinite, tr 2s ease-out infinite;
 }
+
+.resp-div-profile {
+  width: 49%;
+}
+
+@media (max-width: 991px) {
+  .resp-div-profile {
+    width: 100%;
+  }
+}
