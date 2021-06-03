@@ -19,7 +19,7 @@ const Home = () => {
             className="py-0 relative mx-auto"
             style={{ maxWidth: "1500px", width: "90%", color: "#fff" }}
           >
-            <div className="text-white relative flex w-full max-w-full mx-auto pb-6 lg:bg-themeblack bg-transparent rounded-sm flex-col md:-mt-56 mt-0 ">
+            <div className="text-white relative flex w-full max-w-5xl mx-auto pb-6 lg:bg-themeblack bg-transparent rounded-sm flex-col md:-mt-56 mt-0 ">
               <div
                 className="relative flex pb-6 justify-center"
                 style={{ marginTop: "-60px" }}

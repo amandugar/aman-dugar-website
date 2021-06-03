@@ -67,7 +67,7 @@ html, body, a, p, li, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .profile-bkg-hero {
     height: 125px;
   }
