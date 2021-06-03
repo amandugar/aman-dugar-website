@@ -33,7 +33,7 @@ const AppComp = ({
           ></div>
           {bgNeeded && (
             <div
-              class="absolute left-0 right-0 top-0 bottom-0 border-2 border-none"
+              className="absolute left-0 right-0 top-0 bottom-0 border-2 border-none"
               style={{ backgroundColor: bgCol }}
             ></div>
           )}

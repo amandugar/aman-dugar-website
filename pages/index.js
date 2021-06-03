@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SocialIcons from "../components/socialIcons";
+import { SocialIconList1, SocialIconList2 } from "../constants/socialIcons";
 import AppComp from "../components/appscomp";
 const Home = () => {
   return (
@@ -55,46 +56,26 @@ const Home = () => {
               </div>
               <div className="flex w-full mb-5 px-6 items-center justify-center md:flex-nowrap flex-wrap">
                 <div className="flex md:mb-0 mb-2">
-                  <SocialIcons
-                    image={
-                      "https://cdn.solo.to/images/social/applemusic-min.svg"
-                    }
-                    link={"https://soundcloud.app.goo.gl/eT3z88NnBy3DDZkH7"}
-                  />
-                  <SocialIcons
-                    image={"https://cdn.solo.to/images/social/facebook-min.svg"}
-                    link={"https://facebook.com/theofficialasher"}
-                  />
-                  <SocialIcons
-                    image={
-                      "https://cdn.solo.to/images/social/instagram-min.svg"
-                    }
-                    link={"https://instagram.com/asherthephotographer"}
-                  />
+                  {SocialIconList1.map((value, key) => {
+                    return (
+                      <SocialIcons
+                        image={value.image}
+                        link={value.link}
+                        key={key}
+                      />
+                    );
+                  })}
                 </div>
                 <div className="flex md:mb-0 mb-2">
-                  <SocialIcons
-                    image={"https://cdn.solo.to/images/social/spotify-min.svg"}
-                    link={
-                      "https://open.spotify.com/artist/6XN9cyC0VcjQo9s3VWvHf5"
-                    }
-                  />
-                  <SocialIcons
-                    image={
-                      "https://cdn.solo.to/images/social/soundcloud-min.svg"
-                    }
-                    link={"https://soundcloud.com/ashermusic1"}
-                  />
-                  <SocialIcons
-                    image={"https://cdn.solo.to/images/social/twitter-min.svg"}
-                    link={"https://twitter.com/officialasher1"}
-                  />
-                  <SocialIcons
-                    image={"https://cdn.solo.to/images/social/youtube-min.svg"}
-                    link={
-                      "https://youtube.com/channel/UCbYAsJlZ2I22VFNWiMvG0rw"
-                    }
-                  />
+                  {SocialIconList2.map((value, key) => {
+                    return (
+                      <SocialIcons
+                        image={value.image}
+                        link={value.link}
+                        key={key}
+                      />
+                    );
+                  })}
                 </div>
               </div>
             </div>
