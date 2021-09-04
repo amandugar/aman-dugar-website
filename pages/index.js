@@ -31,16 +31,13 @@ const Home = () => {
                     boxShadow: "0 8px 40px 0 rgb(0 0 0 / 21%)",
                   }}
                 >
-                  <img
-                    src="https://cdn.solo.to/user/a/5f7d66f3481fc9_71708607.jpg"
-                    className="lg:h-full h-40"
-                  />
+                  <img src="/aman.jpeg" className="lg:h-full h-40" />
                 </div>
               </div>
               <div className="flex max-w-xs mx-auto mb-1 flex-col items-center">
                 <div className="flex relative">
                   <h1 className="mt-0 mb-4 font-medium text-3xl leading-7 text-center">
-                    A S H E R
+                    A M A N &nbsp; D U G A R
                   </h1>
                 </div>
                 <div className="flex mb-4 text-base font-light text-gray-200 -ml-1 justify-center items-center">
@@ -48,10 +45,10 @@ const Home = () => {
                     src="https://cdn.solo.to/images/map-pin.svg"
                     className="w-5 h-5 mr-2 inline-block max-w-full"
                   />
-                  <div className="text-center">California</div>
+                  <div className="text-center">Faridabad</div>
                 </div>
                 <p className="mb-5 text-center">
-                  WA Artist Based in California
+                  Student in Amity University Rajasthan
                 </p>
               </div>
               <div className="flex w-full mb-5 px-6 items-center justify-center md:flex-nowrap flex-wrap">
@@ -81,10 +78,10 @@ const Home = () => {
             </div>
           </div>
           <div className="py-11 relative flex-1">
-            <div
+            {/* <div
               className="mx-auto flex-col items-center justify-center"
               style={{ width: "90%", maxWidth: "1500px" }}
-            >
+              >
               <div className="flex w-full max-w-5xl mx-auto flex-row justify-between items-start flex-wrap">
                 <div className="flex w-full mb-5 flex-col items-end">
                   <a
@@ -183,7 +180,7 @@ const Home = () => {
                   backCol="rgba(179, 57, 198,0.85)"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
